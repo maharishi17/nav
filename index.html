@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 8px 16px;
+                background: hwb(0 73% 20%);
+                border-bottom: 1px solid #ddd;
+
+            }
+
+        .nav-left,
+        .nav-center,
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .nav-center input {
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+                .material-icons {
+                    cursor: pointer;
+                    font-size: 24px;
+                }
+    </style>
+</head>
+
+<body>
+
+
+    <nav>
+
+
+        <div class="nav-left">
+            <span class="material-icons">menu</span>
+            <span class="material-icons">play_circle_filled</span>
+            <b>YouTube</b>
+        </div>
+
+
+        <div class="nav-center">
+            <input type="text" placeholder="Search">
+            <span class="material-icons">search</span>
+        </div>
+
+
+        <div class="nav-right">
+            <span class="material-icons">mic</span>
+            <span class="material-icons">apps</span>
+            <span class="material-icons">notifications</span>
+            <span class="material-icons">account_circle</span>
+        </div>
+
+    </nav>
+
+
+
+</body>
+
+</html>
